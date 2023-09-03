@@ -1,10 +1,10 @@
 các thứ cần làm:
 
-1.Thêm Người dùng vào danh sách                              (Đã xong)
-2.xóa ng dùng khỏi danh sách                                 (Đã Xong)
-3.Lưu xuống local                                            (Đã xong)
-4.Lấy từ local lên                                           (Chưa xong)
-5.Cập nhật thông tin ng dùng                                 (Chưa xong)
-4.Lọc danh sách ng dùng theo loại ng dùng                    (Chưa xong)  
-5.Người dùng học viên có tính năng tính điểm trung bình      (Đã xong)
-6.Người dùng nhân viên có tính năng tính lương               (Đã xong)
+1.Thêm Người dùng vào danh sách                              (Đã xong.)
+2.xóa ng dùng khỏi danh sách                                 (Đã Xong.)
+3.Lưu xuống local                                            (Đã xong.)
+4.Lấy từ local lên                                           (Chưa xong.)
+5.Cập nhật thông tin ng dùng                                 (Chưa xong.)
+4.Lọc danh sách ng dùng theo loại ng dùng                    (Chưa xong.)  
+5.Người dùng học viên có tính năng tính điểm trung bình      (Đã xong.)
+6.Người dùng nhân viên có tính năng tính lương               (Đã xong.)

@@ -17,13 +17,19 @@ const themDoiTuong = (event) => {
     // console.log(nutLuaChon)
     if (nutLuaChon.value === "sinhVien") {
         person = new SinhVien();
+        document.getElementById("txtNgayLam").value = "none";
+        document.getElementById("txtLuong").value = "none";
     } else if (nutLuaChon.value === "nhanVien") {
         person = new NhanVien();
+        document.getElementById("diemToan").value = "none";
+        document.getElementById("diemLy").value = "none";
+        document.getElementById("diemBHoa").value = "none";
     } else {
         alert("Vui lòng chọn Đối Tượng");
         return;
     }
     // console.log(person);
+    console.log(arrField);
     for (let item of arrField) {
         // console.log(item)
         const { id, value } = item;
@@ -32,6 +38,7 @@ const themDoiTuong = (event) => {
             alert("Vui lòng không bỏ trống !!");
             return;
         };
+        console.log(value)
         if (value !== "") {
             if (id === 'maID' && !regexID.test(value)) {
                 alert("ID có độ dài từ 2 đến 4 số !!");
